@@ -88,11 +88,11 @@ button {
   padding:16px 0 15px;
   max-width:1064px;
   margin:0 auto;
-
+  display:flex;
 }
 
-.menu__list,header-options{
-
+.menu__list, .header-options{
+display: flex;
 }
 
 .header__logo{
@@ -100,5 +100,23 @@ button {
 }
 
 .header-options{
-  margin-left:370px;
+  margin-left:220px;
+}
+
+.menu__item{
+  margin-right:28px;
+}
+
+.header-options__search{
+  margin: 0 7px 0 15.93px;
+}
+
+.header-options__link > svg{
+  width:21px;
+  margin-top:18px;
+}
+
+p{
+  width:481px;
+  font-size: 24px;
 }
