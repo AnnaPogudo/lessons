@@ -72,7 +72,7 @@ button {
 
 body {
     background: #F1F8FC;
-     font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .section-title {
@@ -100,13 +100,49 @@ body {
     flex-wrap: wrap;
 }
 
-.team-member {
+.team-member__rodion,.team-member__sergey,.team-member__maria,.team-member__eugene,.team-member__fred {
     position: relative;
     padding: 15px;
     max-width: 200px;
 }
 
-.team-member__logo{
+.team-member__rodion:hover {
+content: url("../images/rodion_hover.png");
+border-radius: 0%;
+max-width: 293px;
+}
+
+.team-member__sergey:hover {
+content: url("../images/sergey_hover.png");
+border-radius: 0%;
+max-width: 293px;
+}
+
+.team-member__maria:hover {
+content: url("../images/maria_hover.png");
+border-radius: 0%;
+max-width: 293px;
+}
+
+.team-member__eugene:hover {
+content: url("../images/eugene_hover.png");
+border-radius: 0%;
+max-width: 293px;
+}
+
+.team-member__fred:hover {
+content: url("../images/fred_hover.png");
+border-radius: 0%;
+max-width: 293px;
+}
+
+.team-member__rodion:hover {
+content: url("../images/rodion_hover.png");
+border-radius: 0%;
+max-width: 293px;
+}
+
+.team-member__logo {
     position: absolute;
     right: 9%;
     top: 41%;
