@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* -------------main------------------- */
+
+body {
+    background: #F1F8FC;
+     font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin: 26px auto;
+}
+
+.line__image {
+    max-width: 100px;
+    display: block;
+    justify-content: center;
+    margin: 26px auto;
+}
+
+.bottom-row,
+.top-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    position: relative;
+    padding: 15px;
+    max-width: 200px;
+}
+
+.team-member__logo{
+    position: absolute;
+    right: 9%;
+    top: 41%;
+}
+
+.team-member__photo {
+    position: relative;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.team-member__name {
+    color: #194F94;
+    margin: 10px 0 5px;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.team-member__role {
+    font-weight: 400;
+    font-size: 17px;
+    color: #555;
+}
