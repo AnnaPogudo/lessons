@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "WorkSans";
+    src: url("../fonts/WorkSans-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url("../fonts/WorkSans-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url("../fonts/WorkSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url("../fonts/WorkSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url("../fonts/WorkSans-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url("../fonts/WorkSans-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url("../fonts/WorkSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url("../fonts/WorkSans-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url("../fonts/WorkSans-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 40px 330px
+}
+
+/* -------------header-------------- */
+
+body {
+    font-family: "WorkSans", sans-serif;
+    color: #434364;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.underline-line {
+    display: flex;
+    transform: translate(50%, 50%);
+    width: 380px;
+    height: 4px;
+    background-color: #f4a582;
+    border-radius: 2px;
+    margin-bottom: 40px;
+}
+
+h2,
+h3 {
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+h3 {
+text-decoration: underline;
+font-weight: 500;
+}
+
+
+p:not(:last-of-type(address)) {
+    margin-top: 16px;
+}
+
+address {
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+article{
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 40px;
+    font-weight: 700;
+}
+
+li {
+    position: relative;
+    left: 3%;
+}
+
+.list-item {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+}
+
+.list-item::before {
+    content: "●";
+    position: absolute;
+    left: 0;
+    color: #555;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.list-little-item {
+    position: relative;
+    padding-left: 15px;
+}
+
+.list-little-item::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #555;
+    font-size: 28px;
+    line-height: 0.7;
+}
+
+.purple-line {
+    width: 100vw;
+    height: 100px;
+    margin-left: -330px;
+    background-color: #828CDE;
+    margin-top: 40px;
+}
