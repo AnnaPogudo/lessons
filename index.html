@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>lesson-7</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <h1>Форма заявки на работу в зоопарке</h1>
+    <div>Пожалуйста, заполните форму. Обязательные поля будут помечены <span class="symbol">*</span> </div>
+  </header>
+
+  <form class="form">
+    <!-- Контактная информация -->
+    <fieldset class="form__title">
+      <legend>Контактная информация</legend>
+      <label class="form__label">
+        <span class="form__input-name">Имя <span class="symbol">*</span></span>
+        <input type="text" class="form__input" name="user-name" required />
+      </label>
+      <label class="form__label">
+        <span class="form__input-name">Телефон</span>
+        <input type="tel" class="form__input" name="user-telephone" />
+      </label>
+      <label class="form__label">
+        <span class="form__input-name">Email <span class="symbol">*</span></span>
+        <input type="email" class="form__input" name="user-email" required />
+      </label>
+    </fieldset>
+
+    <!-- Персональная информация -->
+    <fieldset class="form__title">
+      <legend>Персональная информация</legend>
+      <label class="form__label">
+        <span class="form__input-name">Возраст <span class="symbol">*</span></span>
+        <input type="number" class="form__input" name="user-age" required />
+      </label>
+      <label class="form__label">
+        <span class="form__input-name">Пол</span>
+        <select name="gender" class="form-select__gender">
+          <option value="female">Женщина</option>
+          <option value="male">Мужчина</option>
+        </select>
+      </label>
+      <label class="form__label">
+        <span class="form__input-name">Перечислите личные качества</span>
+        <textarea name="user-characteristics" class="form__text"></textarea>
+      </label>
+    </fieldset>
+
+    <!-- Любимые животные -->
+    <fieldset>
+      <legend>Выберите ваших любимых животных</legend>
+      <div class="form-animal__wrap">
+        <label class="form-animal__label">
+          <input type="checkbox" class="form-animal__input" name="user-preferancies[]" />
+          <span class="form__input-name">Зебра</span>
+        </label>
+        <label class="form-animal__label">
+          <input type="checkbox" class="form-animal__input" name="user-preferancies[]" />
+          <span class="form__input-name">Кошак</span>
+        </label>
+        <label class="form-animal__label">
+          <input type="checkbox" class="form-animal__input" name="user-preferancies[]" />
+          <span class="form__input-name">Анаконда</span>
+        </label>
+        <label class="form-animal__label">
+          <input type="checkbox" class="form-animal__input" name="user-preferancies[]" />
+          <span class="form__input-name">Человек</span>
+        </label>
+        <label class="form-animal__label">
+          <input type="checkbox" class="form-animal__input" name="user-preferancies[]" />
+          <span class="form__input-name">Слон</span>
+        </label>
+        <label class="form-animal__label">
+          <input type="checkbox" class="form-animal__input" name="user-preferancies[]" />
+          <span class="form__input-name">Антилопа</span>
+        </label>
+        <label class="form-animal__label">
+          <input type="checkbox" class="form-animal__input" name="user-preferancies[]" />
+          <span class="form__input-name">Голубь</span>
+        </label>
+        <label class="form-animal__label">
+          <input type="checkbox" class="form-animal__input" name="user-preferancies[]" />
+          <span class="form__input-name">Краб</span>
+        </label>
+      </div>
+    </fieldset>
+
+    <button type="submit" class="form__submit">Отправить информацию</button>
+  </form>
+</body>
+</html>
