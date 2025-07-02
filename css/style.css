@@ -1,0 +1,275 @@
+@font-face {
+    font-family: "Stem";
+    src: url("../fonts/Stem-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Stem";
+    src: url("../fonts/Stem-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Stem";
+    src: url("../fonts/Stem-SemiLight.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Stem";
+    src: url("../fonts/Stem-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Stem";
+    src: url("../fonts/Stem-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Stem";
+    src: url("../fonts/Stem-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Stem";
+    src: url("../fonts/Stem-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    padding: 20px;
+    font-family: "Stem", sans-serif;
+}
+
+.navigation {
+    margin-bottom: 32px;
+}
+
+.navigation-list {
+    color: #0F213A;
+    display: flex;
+    gap: 10px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.navigation-list__catalog,
+.navigation-list__face {
+    color: #0F213A;
+}
+
+.navigation-list__transition,
+.navigation-list__wetting {
+    color: #666666;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 155px;
+}
+
+.header-title {
+    font-weight: 350;
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 12px;
+}
+
+.header-description {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    max-width: 800px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+
+.header-button__price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header-button__price>svg {
+    display: block;
+}
+
+.header-button__price>svg:last-of-type {
+    display: none;
+}
+
+.header-button__filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header-button__filter>svg:last-of-type {
+    display: none;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 75px;
+    max-width: 1406px;
+}
+
+.product-list__item {
+    text-align: center;
+    position: relative;
+    flex: 1 1 410px;
+    line-height: 24px;
+
+}
+
+    .product-list__image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain; /* или cover — зависит от задачи */
+    display: block;
+}
+
+.product-list__item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+}
+
+.product-list__discount,
+.product-list__heart,
+.product-list__present {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.product-list__heart {
+    left: 89%;
+}
+
+.product-list__heart svg path {
+    fill: #fff;
+}
+
+.product-list__heart:hover svg path {
+    fill: rgb(203, 20, 20);
+    stroke: rgb(203, 20, 20);
+}
+
+.product-list__button {
+    padding: 16px 19.5px;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #000000;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    padding: 0;
+    margin: 20px 0;
+
+}
+
+.rating-item {
+    width: 14px;
+    height: 14px;
+    list-style: none;
+    background: center/cover no-repeat url("../img/empty_star.jpg");
+}
+
+/* Показываем закрашенные звезды на основе класса */
+.rating-1 .rating-item:nth-child(-n+1),
+.rating-2 .rating-item:nth-child(-n+2),
+.rating-3 .rating-item:nth-child(-n+3),
+.rating-4 .rating-item:nth-child(-n+4),
+.rating-5 .rating-item:nth-child(-n+5) {
+    background-image: url("../img/full_star.jpg");
+}
+
+.product-list__price {
+    margin-bottom: 14px;
+}
+
+.product-list__label+.product-list__title {
+    padding: 0;
+}
+
+.product-list__title {
+    padding-top: 24px;
+    max-width: 310px;
+    margin: 0 auto;
+    /* центрирует сам блок */
+    text-align: center;
+    /* центрирует текст */
+    word-break: break-word;
+    white-space: normal;
+}
+
+
+
+.product-list__label {
+    display: inline-block;
+}
