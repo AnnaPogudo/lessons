@@ -184,7 +184,7 @@ body {
     width: 100%;
     height: auto;
     max-width: 100%;
-    object-fit: contain; /* или cover — зависит от задачи */
+    object-fit: contain;
     display: block;
 }
 
@@ -240,7 +240,6 @@ body {
     background: center/cover no-repeat url("../img/empty_star.jpg");
 }
 
-/* Показываем закрашенные звезды на основе класса */
 .rating-1 .rating-item:nth-child(-n+1),
 .rating-2 .rating-item:nth-child(-n+2),
 .rating-3 .rating-item:nth-child(-n+3),
@@ -261,9 +260,7 @@ body {
     padding-top: 24px;
     max-width: 310px;
     margin: 0 auto;
-    /* центрирует сам блок */
     text-align: center;
-    /* центрирует текст */
     word-break: break-word;
     white-space: normal;
 }
