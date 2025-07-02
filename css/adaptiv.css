@@ -1,11 +1,12 @@
 @media (max-width: 1189px) {
-  .header-button__price > svg:first-of-type,
-  .header-button__filter > svg:first-of-type {
+
+  .header-button__price>svg:first-of-type,
+  .header-button__filter>svg:first-of-type {
     display: none;
   }
 
-  .header-button__price > svg:last-of-type,
-  .header-button__filter > svg:last-of-type {
+  .header-button__price>svg:last-of-type,
+  .header-button__filter>svg:last-of-type {
     display: block;
     width: 24px;
     height: 24px;
@@ -67,5 +68,9 @@
     flex: 1 1 calc(50% - 15px);
     max-width: calc(50% - 15px);
   }
-}
 
+  .navigation-list {
+    font-size: 12px;
+    gap: 6px 5px;
+  }
+}

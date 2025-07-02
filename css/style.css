@@ -85,12 +85,13 @@ body {
 }
 
 .navigation-list {
-    color: #0F213A;
     display: flex;
-    gap: 10px;
-    line-height: 24px;
+    flex-wrap: wrap;
+    gap: 10px 8px;
     font-size: 14px;
+    line-height: 24px;
 }
+
 
 .navigation-list__catalog,
 .navigation-list__face {
