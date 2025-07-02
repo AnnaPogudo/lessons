@@ -166,19 +166,21 @@ body {
 .product-list {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     gap: 75px;
     max-width: 1406px;
 }
 
 .product-list__item {
-    text-align: center;
-    position: relative;
-    flex: 1 1 410px;
-    line-height: 24px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
+  line-height: 24px;
 }
+
 
     .product-list__image {
     width: 100%;
@@ -196,15 +198,16 @@ body {
 }
 
 .product-list__discount,
-.product-list__heart,
 .product-list__present {
     position: absolute;
-    top: 5%;
+    top: 1%;
     left: 5%;
 }
 
 .product-list__heart {
-    left: 89%;
+    position: absolute;
+    top:2%;
+    left: 80%;
 }
 
 .product-list__heart svg path {
@@ -257,7 +260,7 @@ body {
 }
 
 .product-list__title {
-    padding-top: 24px;
+    padding-top: 22px;
     max-width: 310px;
     margin: 0 auto;
     text-align: center;
