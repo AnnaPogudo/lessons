@@ -1,0 +1,745 @@
+/* Общие стили */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  font-size: clamp(14px, 2vw, 16px);
+}
+
+/* Верхний баннер */
+.header-top {
+  position: relative;
+  background-color: #6f42c1;
+  color: white;
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 0.75em 1em;
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+
+.header-close {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.header-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.header-link:hover {
+  opacity: 0.85;
+}
+
+/* Навигация */
+.header-nav {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  border-bottom: 1px solid #f0f0f0;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.header-nav__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav__button {
+  color: #697586;
+  font-weight: 500;
+  padding: 0.5em;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.header-nav__button:hover {
+  color: #6b38fb;
+}
+
+/* Действия справа */
+.header-nav__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
+.header-nav__btn-cart {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap:4px;
+  background: #f6f8fa;
+  border-radius: 64px;
+  padding: 0.5em 1.25em;
+  color: #202939;
+  text-decoration: none;
+  font-weight: 400;
+  transition: 0.3s ease;
+}
+
+.header-nav__btn-cart:hover {
+  background-color: #e9edf1;
+}
+
+.header-nav__btn-subscribe {
+  background-color: #cf4d74;
+  color: #fff;
+  padding: 0.5em 1.25em;
+  border-radius: 9999px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.header-nav__btn-subscribe:hover {
+  background-color: #a22c55;
+}
+
+/* Герой-блок */
+.hero-section {
+  background-color: #f7f3ff;
+  padding: 2em 1em;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+  place-items: center;
+}
+
+/* Контент */
+.hero-content {
+  padding: 2em;
+  min-width: 250px;
+  max-width: 600px;
+}
+
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.hero-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1em;
+  justify-content: start;
+  margin-bottom: 2em;
+}
+
+.btn {
+  color: #000;
+  display: inline-block;
+  padding: 0.75em 1.5em;
+  border-radius: 2em;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color:  #cf4d74;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #a22c55;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: #2a2a2a;
+  border: 1px solid #dcdcdc;
+}
+
+.btn-secondary:hover {
+  background-color: #f2f2f2;
+}
+
+.hero-image {
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Теги */
+.hero-labels {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 32px;
+  align-items: center;
+  margin-top: 1.5em;
+}
+
+.hero-label {
+max-width: 124px;
+}
+
+/* Фичи */
+.hero-features {
+  list-style: none;
+  padding: 48px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.feature-tag {
+  background-color: #fff;
+  padding: 24px 48px;
+  border-radius: 64px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.feature-tag:hover {
+  transform: translateY(-4px);
+}
+
+/* About */
+.about-section {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.about-label {
+  border-radius: 24px;
+  margin-top: 160px;
+  background-color: #EDEBF7;
+  color: #3C2769;
+  padding: 4px 12px;
+  font-size: 16px;
+}
+
+.about-title {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #202939;
+}
+
+.about-text {
+  font-size: 18px;
+  color: #697586;
+  max-width: 741px;
+  margin-bottom: 21px;
+}
+
+.about-buttons {
+  margin-bottom: 160px;
+}
+
+/* Products */
+/* Секция продуктов */
+.products-section {
+  padding: 80px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* Метка "Best sellers" */
+.product-label {
+  display: inline-block;
+  margin: 0 auto 24px auto;
+  text-align: center;
+  border-radius: 24px;
+  background-color: #EDEBF7;
+  color: #3C2769;
+  padding: 4px 12px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Заголовок секции */
+.product-title {
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #202939;
+  margin-bottom: 64px;
+}
+
+/* Контейнер карточек */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 160px;
+}
+
+/* Карточка продукта */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #F3F5F7;
+  text-align: center;
+  padding: 16px;
+  flex: 1 1 250px;
+  max-width: 390px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Картинка продукта */
+.product-img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  margin: 42px 0;
+}
+
+/* Информация о продукте (категория и цена) */
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  font-size: 16px;
+  color: #697586;
+}
+
+.product-info__clean {
+  font-family: "Roboto", sans-serif;
+}
+
+.product-info__cost {
+  font-weight: 500;
+}
+
+/* Описание */
+.product-description {
+  display: flex;
+  justify-content: start;
+  color: #697586;
+  font-size: 13px;
+  margin: 12px 0 24px;
+}
+
+/* Ссылка на детали */
+.product-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 17px 40px;
+  background-color: #ffffff;
+  border-radius: 64px;
+  transition: background-color 0.3s ease;
+}
+
+.product-details:hover {
+  background-color: #eaeaea;
+}
+.best-selling{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 160px;
+}
+
+.product-highlight{
+  display: flex;
+  flex-direction: column;
+  background-color: #F3F5F7;
+  text-align: center;
+  padding: 16px;
+  flex: 1 1 250px;
+  max-width: 624px;
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+.product-highlight:hover{
+  transform:translateY(-4px);
+}
+
+.product-highlight__button {
+  display: inline-block;
+  align-self: center;
+  background-color: #fff;
+  color: #2a2a2a;
+  border: 1px solid #dcdcdc;
+  padding: 0.75em 1.5em;
+  border-radius: 64px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease;
+  margin-bottom: 64px;
+}
+
+.product-highlight__button:hover {
+  background-color: #f2f2f2;
+}
+
+.product-highlight__title{
+  font-size:32px;
+  font-weight:400;
+  font-family:"Roboto",sans-serif;
+  color:#202939;
+  margin-bottom: 27px;
+}
+
+.product-highlight__description{
+  font-size:17px;
+  color:#697586;
+  margin-bottom: 37px;
+}
+
+.how-it-works{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.how-it-works__title{
+  font-family: "Roboto",sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.how-it-works__label{
+  display: inline-block;
+  align-self: center;
+  background-color: #EDEBF7;
+  color: #3C2769;
+  border: 1px solid #dcdcdc;
+  padding: 4px 12px;
+  border-radius: 64px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease;
+  margin-bottom: 24px;
+}
+
+.how-it-works__description{
+  display: inline-block;
+  align-self: center;
+  max-width: 750px;
+  font-size: 16px;
+  font-weight:400;
+  color:#697586;
+    margin-bottom: 76px;
+}
+
+.steps{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 160px;
+}
+
+.step__title{
+  margin: 31px 0;
+  font-family: "Roboto",sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.step__description{
+  display: inline-block;
+  align-self: center;
+  max-width: 317px;
+  font-size: 16px;
+  font-weight:400;
+  color:#697586;
+}
+
+.healthy-tanning__title,.smooth-skin__title{
+  font-size: 48px;
+  font-family: "Roboto",sans-serif;
+  font-weight: 400;
+}
+
+.smooth-skin__collection, .tanning__collection{
+  margin: 160px 80px;
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:128px;
+place-items:calc(100%-576px);
+
+}
+
+.smooth-skin__collection-img,.healthy-tanning__img{
+  width: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.collection-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.smooth-skin__label,.healthy-tanning__label{
+  margin-top: 135px;
+  font-size: 16px;
+  font-weight: 400;
+  color:#3C2769;
+  background-color: #EDEBF7;
+}
+
+.smooth-skin__label,
+.healthy-tanning__label {
+  display: inline-block;
+  align-self: flex-start;
+  background-color: #eae6f8;
+  color: #6b5ca5;
+  padding: 0.3rem 0.8rem;
+  border-radius: 64px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.smooth-skin__buttons,.healthy-tanning__buttons{
+  display: flex;
+  gap:16px;
+}
+
+.smooth-skin__shop,.smooth-skin__explore,.healthy-tanning__shop{
+  text-decoration: none;
+  color: #000;
+  cursor:pointer;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+.smooth-skin__shop,.healthy-tanning__shop{
+  display: inline-block;
+  align-self: center;
+  background-color: #fff;
+  color: #2a2a2a;
+  border: 1px solid #dcdcdc;
+  padding: 0.75em 1.5em;
+  border-radius: 64px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease;
+  margin-bottom: 64px;
+}
+
+.smooth-skin__shop:hover,.healthy-tanning__shop:hover{
+  background-color: #eaeaea;
+}
+
+.btn-third svg{
+margin-left: 2px;
+}
+
+.btn-third:hover{
+transform: translateX(15px);
+}
+
+.testimonials-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-label{
+  display:inline-block;
+  align-self: center;
+  padding:4px 12px;
+  color:#3C2769;
+  background-color: #EDEBF7;
+  border-radius: 24px;
+  margin-bottom: 22px;
+}
+
+.testimonial-title{
+  font-weight:400;
+  font-size:48px;
+  font-family:"Roboto",sans-serif;
+  margin-bottom: 25px;
+}
+
+.testimonial-description{
+  color:#697586;
+  font-size:17px;
+}
+
+.testimonial-list {
+  margin: 80px auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  padding: 0 16px;
+}
+
+.testimonial-card {
+  background-color: #F3F5F7;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial__comment {
+  margin-bottom: 21px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.testimonial-author img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.testimonial-author__info small {
+  font-size: 14px;
+  color: #666;
+}
+
+.rating {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+.rating-item {
+  width: 16px;
+  height: 16px;
+  list-style: none;
+  background: center/cover url("../img/star.png");
+}
+
+.faq-section{
+  display:grid;
+  max-width:100%;
+  margin:40% 10%;
+  grid-template-columns:repeat(2,1fr)
+}
+
+.faq-section__title{
+  font-family:"Roboto",sans-serif;
+  font-size:48px;
+  font-weight:400;
+}
+
+.faq-section__info{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+margin-right: 20%;
+}
+
+.faq-list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.btn-primary{
+display: inline-block;
+align-self: start;
+}
+
+.faq-section__description{
+font-size:18px;
+font-weight: 400;
+color:#697586;
+margin-bottom:37px;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 23px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 2px 0px #697586;
+  margin-bottom: 16px;
+  font-size: 16px;
+  border: none;
+  width: 100%;
+}
+
+.faq-icon {
+  cursor:pointer;
+  font-size: 32px;
+  color: #000;
+}
+
+
+.faq-item{
+  max-width:100%;
+  position: relative;
+}
+
+.faq-item__info{
+  box-shadow: 0px 0px 2px 0px #697586;
+  display: none;
+  margin-bottom: 16px;
+}
+
+.faq-icon:active + .faq-item__info{
+visibility:visible
+}
