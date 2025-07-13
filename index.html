@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
 </head>
 
 <body>
@@ -19,7 +21,6 @@
                         d="M19.3125 2.5625L11.875 10L19.3125 17.4375L17.4375 19.3125L10 11.875L2.5625 19.3125L0.6875 17.4375L8.125 10L0.6875 2.5625L2.5625 0.6875L10 8.125L17.4375 0.6875L19.3125 2.5625Z"
                         fill="white" />
                 </svg>
-
             </span>
         </div>
         <nav class="header-nav">
@@ -34,7 +35,6 @@
                                 d="M10.5938 0.578125L12 1.98438L6 7.98438L0 1.98438L1.40625 0.578125L6 5.17188L10.5938 0.578125Z"
                                 fill="#697586" />
                         </svg>
-
                     </span>
                     Collections
                 </li>
@@ -73,23 +73,20 @@
                         </span>
                     </div>
                 </div>
-
                 <img class="hero-image" src="img/curology-man-orange-bandana.jpg"
                     alt="Man with orange bandana holding Curology product" />
             </div>
-
-            <ul class="hero-features">
-                <li class="feature-tag">Healthy supplement</li>
-                <li class="feature-tag">Gluten-free</li>
-                <li class="feature-tag">Natural products</li>
-                <li class="feature-tag">Free shipping</li>
-                <li class="feature-tag">Eco-friendly</li>
-                <li class="feature-tag">Vitamins</li>
-            </ul>
-
+            <div class="hero-swiper swiper">
+                <ul class="hero-features swiper-wrapper">
+                    <li class="feature-tag swiper-slide">Healthy supplement</li>
+                    <li class="feature-tag swiper-slide">Gluten-free</li>
+                    <li class="feature-tag swiper-slide">Natural products</li>
+                    <li class="feature-tag swiper-slide">Free shipping</li>
+                    <li class="feature-tag swiper-slide">Eco-friendly</li>
+                    <li class="feature-tag swiper-slide">Vitamins</li>
+                </ul>
+            </div>
         </section>
-
-
 
         <section class="about-section">
             <span class="about-label">About us</span>
@@ -269,7 +266,6 @@
             </div>
         </section>
 
-        <!-- Testimonials Section -->
         <section class="testimonials">
             <div class="testimonials-info">
                 <span class="section-label">Testimonials</span>
@@ -405,124 +401,196 @@
                     <button class="faq-question">Are the fragrances in your products natural and safe?
                         <span class="faq-icon">+</span>
                     </button>
+                    <div class="faq-item__info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse Varius enim in eros
+                        elementum
+                        tristique, duis cursus mi quis viverra ornare, eros dolor interdum nulla ut commodo.
+                    </div>
                 </div>
 
-                <div class="faq-item__info">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse Varius enim in eros elementum
-                    tristique, duis cursus mi quis viverra ornare, eros dolor interdum nulla ut commodo.
-                </div>
 
                 <div class="faq-item">
                     <button class="faq-question">Are Beautico products vegan?
                         <span class="faq-icon">+</span>
                     </button>
+                    <div class="faq-item__info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse Varius enim in eros
+                        elementum
+                        tristique, duis cursus mi quis viverra ornare, eros dolor interdum nulla ut commodo.
+                    </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question">What are the expiry dates for Beautico products?
                         <span class="faq-icon">+</span>
                     </button>
+                    <div class="faq-item__info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse Varius enim in eros
+                        elementum
+                        tristique, duis cursus mi quis viverra ornare, eros dolor interdum nulla ut commodo.
+                    </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question">Is your packaging environmentally friendly?
                         <span class="faq-icon">+</span>
                     </button>
+                    <div class="faq-item__info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse Varius enim in eros
+                        elementum
+                        tristique, duis cursus mi quis viverra ornare, eros dolor interdum nulla ut commodo.
+                    </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question">Does Beautico products give me an allergic reaction?
                         <span class="faq-icon">+</span>
                     </button>
+                    <div class="faq-item__info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse Varius enim in eros
+                        elementum
+                        tristique, duis cursus mi quis viverra ornare, eros dolor interdum nulla ut commodo.
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Blog Section -->
         <section class="blog-section">
-            <span class="section-label">Latest posts</span>
-            <h2>From our blog</h2>
-            <a href="#" class="btn btn-link">View all posts</a>
+            <div class="blog-info">
+                <span class="blog-label">Latest posts</span>
+                <h2 class="blog-title">From our blog</h2>
+                <div class="blog-posts__info">
+                    <p class="blog-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <button href="#" class="blog-link">View all posts</button>
+                </div>
+            </div>
             <div class="blog-posts">
-                <article class="blog-card">
-                    <img src="img/dry_skincare_routine.jpg" alt="Dry acne skincare" style="width: 50%;" />
+                <div class="blog-card">
+                    <img src="img/anti_aging.png" alt="Dry acne skincare" class="blog-image" />
                     <span class="blog-tag">Anti aging</span>
-                    <h3>Dry acne prone skincare routine</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#" class="btn-readmore">Read more →</a>
-                </article>
-                <article class="blog-card">
-                    <img src="img/ingredients_to_calm_down_skin.jpg" alt="Calm down skin" style="width: 50%;" />
+                    <div class="blog-card__info">
+                        <h3 class="blog-card__title">Dry acne prone skincare routine</h3>
+                        <p class="blog-card__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                        </p>
+                        <a href="#" class="blog-card__button">
+                            Read more
+                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1.98438 0L7.98438 6L1.98438 12L0.578125 10.5938L5.17188 6L0.578125 1.40625L1.98438 0Z"
+                                    fill="#111827" />
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="img/ingredients_to_calm_down_skin.jpg" alt="Calm down skin" />
                     <span class="blog-tag">Skin types</span>
-                    <h3>5 ingredients to calm down stressed out skin</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#" class="btn-readmore">Read more →</a>
-                </article>
-                <article class="blog-card">
-                    <img src="img/products_for_sensitive_skin.jpg" alt="Sensitive skin" style="width: 50%;" />
+                    <div class="blog-card__info">
+                        <h3 class="blog-card__title">5 ingredients to calm down stressed out skin</h3>
+                        <p class="blog-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse varius enim in eros.</p>
+                        <a href="#" class="blog-card__button">Read more
+                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1.98438 0L7.98438 6L1.98438 12L0.578125 10.5938L5.17188 6L0.578125 1.40625L1.98438 0Z"
+                                    fill="#111827" />
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="img/products_for_sensitive_skin.jpg" alt="Sensitive skin" />
                     <span class="blog-tag">Organic skincare</span>
-                    <h3>How to use products for sensitive skin</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#" class="btn-readmore">Read more →</a>
-                </article>
+                    <div class="blog-card__info">
+                        <h3 class="blog-card__title">How to use products for sensitive skin</h3>
+                        <p class="blog-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse varius enim in eros.</p>
+                        <a href="#" class="blog-card__button">Read more
+                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1.98438 0L7.98438 6L1.98438 12L0.578125 10.5938L5.17188 6L0.578125 1.40625L1.98438 0Z"
+                                    fill="#111827" />
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <!-- Image gallery under blog -->
-        <section class="image-gallery">
-            <img src="img/image_gallery_1.jpg" alt="Product 1">
-            <img src="img/image_gallery_2.jpg" alt="Product 2">
-            <img src="img/image_gallery_3.jpg" alt="Product 3">
-            <img src="img/products_for_sensitive_skin.jpg" alt="Product 4" style="width: 50%;">
-            <img src="img/ingredients_to_calm_down_skin.jpg" alt="Product 5" style="width: 50%;">
+        <section class="images-gallery swiper">
+            <div class="images-wrap swiper-wrapper">
+                <img src="img/image_gallery_1.jpg" alt="Product 1" class="circle-img swiper-slide">
+                <img src="img/image_gallery_2.jpg" alt="Product 2" class="circle-img swiper-slide">
+                <img src="img/image_gallery_3.jpg" alt="Product 3" class="circle-img swiper-slide">
+                <img src="img/products_for_sensitive_skin.jpg" alt="Product 4" class="circle-img swiper-slide">
+                <img src="img/ingredients_to_calm_down_skin.jpg" alt="Product 5" class="circle-img swiper-slide">
+            </div>
         </section>
 
-        <!-- Footer -->
         <footer class="site-footer">
-            <form class="newsletter-form">
-                <label>Join our newsletter to stay up to date on features and releases.</label>
-                <input type="email" placeholder="Enter your email">
-                <button type="submit">Subscribe</button>
-                <small>By subscribing you agree to our <a href="#">Privacy Policy</a> and <a href="#">Terms of
-                        Service</a>.</small>
-            </form>
-            <div class="footer-links">
-                <div>
-                    <h4>Pages</h4>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Legal</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>CMS Pages</h4>
-                    <ul>
-                        <li><a href="#">Blog Post</a></li>
-                        <li><a href="#">Blog Categories</a></li>
-                        <li><a href="#">Product Page</a></li>
-                        <li><a href="#">Product Categories</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Account Pages</h4>
-                    <ul>
-                        <li><a href="#">Sign Up</a></li>
-                        <li><a href="#">Forgot Password</a></li>
-                        <li><a href="#">Reset Password</a></li>
-                        <li><a href="#">Email Confirmation</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Utility Pages</h4>
-                    <ul>
-                        <li><a href="#">Style Guide</a></li>
-                        <li><a href="#">Changelog</a></li>
-                        <li><a href="#">Licenses</a></li>
-                        <li><a href="#">404</a></li>
-                    </ul>
+            <div class="footer-wrap">
+                <form class="newsletter-form">
+                    <label class="form-label">Join our newsletter to stay up to date on features and releases.</label>
+                    <div class="form-wrap">
+                        <input type="email" placeholder="Enter your email" class="form-email">
+                        <button type="submit" class="form-button__subscribe">Subscribe</button>
+                    </div>
+                    <small class="form-permissions">By subscribing you agree to our <a href="#"
+                            class="form-link">Privacy Policy</a> and <a href="#" class="form-link">Terms of
+                            Service</a>.</small>
+                </form>
+                <div class="footer-links">
+                    <div class="site-pages">
+                        <h4 class="site-title__pages">Pages</h4>
+                        <ul class="site-navigation">
+                            <li class="site-page"><a href="#" class="site-link">Home</a></li>
+                            <li class="site-page"><a href="#" class="site-link">About</a></li>
+                            <li class="site-page"><a href="#" class="site-link">Contact</a></li>
+                            <li class="site-page"><a href="#" class="site-link">Blog</a></li>
+                            <li class="site-page"><a href="#" class="site-link">FAQ</a></li>
+                            <li class="site-page"><a href="#" class="site-link">Legal</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="site-title__pages">CMS Pages</h4>
+                        <ul>
+                            <li class="site-page"><a href="#" class="site-link">Blog Post</a></li>
+                            <li class="site-page"><a href="#" class="site-link">Blog Categories</a></li>
+                            <li class="site-page"><a href="#" class="site-link">Product Page</a></li>
+                            <li class="site-page"><a href="#" class="site-link">Product Categories</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="site-title__pages">Account Pages</h4>
+                        <ul>
+                            <li class="site-page"><a href="#" class="site-link">Sign Up</a></li>
+                            <li class="site-page"><a href="#" class="site-link">Forgot Password</a></li>
+                            <li class="site-page"><a href="#" class="site-link">Reset Password</a></li>
+                            <li class="site-page"><a href="#" class="site-link">Email Confirmation</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="site-title__pages">Utility Pages</h4>
+                        <ul>
+                            <li class="site-page"><a href="#" class="site-link">Style Guide</a></li>
+                            <li class="site-page"><a href="#" class="site-link">Changelog</a></li>
+                            <li class="site-page"><a href="#" class="site-link">Licenses</a></li>
+                            <li class="site-page"><a href="#" class="site-link">404</a></li>
+                            <li class="site-page"><a href="#" class="site-link">Password</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+
+            <div class="line-wrapper"></div>
+
+
             <div class="footer-bottom">
                 <p>© Beautico by Minimal Square. Powered by Webflow.</p>
                 <div class="social-icons">
@@ -554,6 +622,48 @@
             </div>
         </footer>
     </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const faqItems = document.querySelectorAll('.faq-item');
+
+            faqItems.forEach((item) => {
+                const question = item.querySelector('.faq-question');
+                const answer = item.querySelector('.faq-item__info');
+                const icon = item.querySelector('.faq-icon');
+
+                if (!answer) return;
+
+                question.addEventListener('click', () => {
+                    const isOpen = item.classList.contains('active');
+
+                    faqItems.forEach((el) => {
+                        el.classList.remove('active');
+                        const content = el.querySelector('.faq-item__info');
+                        const icon = el.querySelector('.faq-icon');
+
+                        if (content) {
+                            content.classList.remove('animateIn');
+                            content.classList.add('animateOut');
+                        }
+
+                        if (icon) {
+                            icon.textContent = '+';
+                        }
+                    });
+
+                    if (!isOpen) {
+                        item.classList.add('active');
+                        answer.classList.remove('animateOut');
+                        answer.classList.add('animateIn');
+                        icon.textContent = '+';
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
