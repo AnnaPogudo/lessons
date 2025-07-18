@@ -1120,3 +1120,1421 @@ gap: 40px;
   display: flex;
   gap:19px;
 }
+
+@media(max-width:1190px) {
+    .product-highlight {
+        max-width: 500px;
+        padding: 12px;
+    }
+
+    .product-highlight__title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .hero-image {
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .smooth-skin__label,
+    .healthy-tanning__label {
+        margin-top: 30px;
+        font-size: 12px;
+    }
+
+    .form-email {
+        width: 230px;
+    }
+
+    .faq-question {
+        font-size: 14px;
+    }
+
+    .product-highlight {
+        max-width: 400px;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 990px) {
+    .form-email {
+        width: 200px;
+        padding: 13px 20px;
+    }
+
+    .form-button__subscribe {
+        padding: 12px 22px;
+        font-size: 13px;
+    }
+
+    .product-title,
+    .about-title,
+    .how-it-works__title,
+    .testimonial-title,
+    .faq-section__title,
+    .blog-title {
+        font-size: 40px;
+    }
+
+    .faq-section__description {
+        font-size: 12px;
+    }
+
+    .faq-question {
+        font-size: 12px;
+    }
+
+    .step__description {
+        font-size: 14px;
+        max-width: 280px;
+    }
+}
+
+@media (max-width: 888px) {
+    body {
+        font-size: 15px;
+    }
+
+    .header-top {
+        padding: 0.5em 1em;
+        font-size: 0.8rem;
+    }
+
+    .header-nav {
+        padding: 1em;
+        gap: 0.5em;
+    }
+
+    .header-nav__list {
+        gap: 1em;
+    }
+
+    .header-nav__actions {
+        gap: 12px;
+    }
+
+    .hero-section {
+        padding: 20px;
+    }
+
+    .hero-title {
+        font-size: clamp(1.75rem, 4vw, 3rem);
+    }
+
+    .hero-buttons {
+        gap: 0.75em;
+    }
+
+    .hero-labels {
+        gap: 24px;
+    }
+
+    .hero-image {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .product-title,
+    .about-title,
+    .how-it-works__title,
+    .testimonial-title,
+    .faq-section__title,
+    .blog-title {
+        font-size: 36px;
+    }
+
+    .how-it-works__description {
+        max-width: 600px;
+        font-size: 14px;
+    }
+
+    .smooth-skin__shop,
+    .healthy-tanning__shop {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    .product-list,
+    .best-selling {
+        gap: 16px;
+        margin-bottom: 80px;
+    }
+
+    .product-card {
+        flex: 1 1 30%;
+    }
+
+    .product-highlight__title {
+        font-size: 24px;
+    }
+
+    .product-highlight__description {
+        font-size: 15px;
+    }
+
+    .product-highlight__button {
+        font-size: 14px;
+        padding: 0.6em 1.2em;
+    }
+
+    .smooth-skin__collection,
+    .tanning__collection {
+        margin: 80px 40px;
+        gap: 64px;
+    }
+
+    .step__title {
+        font-size: 22px;
+    }
+
+    .step__description {
+        font-size: 14px;
+    }
+
+    .steps {
+        gap: 24px;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .testimonial-list {
+        gap: 24px;
+        padding: 0 12px;
+    }
+
+    .faq-section {
+        padding: 5%;
+        gap: 32px;
+    }
+
+    .blog-card__title {
+        font-size: 18px;
+    }
+
+    .blog-card__description {
+        font-size: 12px;
+    }
+
+    .blog-info {
+        padding: 60px 40px;
+    }
+
+    .blog-posts {
+        padding: 40px;
+        gap: 24px;
+    }
+
+    .footer-wrap,
+    .footer-links {
+        gap: 24px;
+    }
+
+    .site-footer {
+        padding: 60px 40px;
+    }
+
+    .form-label {
+        font-size: 12px;
+    }
+
+    .form-email {
+        width: 200px;
+    }
+
+    .form-button__subscribe {
+        padding: 14px 30px;
+    }
+
+    .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 13px;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .site-title__pages {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 806px) {
+
+    .smooth-skin__label,
+    .healthy-tanning__label {
+        margin-top: 50px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .product-highlight {
+        max-width: 350px;
+        padding: 12px;
+    }
+
+    .healthy-tanning__title,
+    .smooth-skin__title {
+        font-size: 40px;
+    }
+
+    .form-email {
+        width: 180px;
+    }
+
+    .form-button__subscribe {
+        padding: 12px 34px;
+
+    }
+
+    .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 10px;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .site-title__pages {
+        font-size: 10px;
+    }
+
+    .faq-section__description {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .faq-question {
+        font-size: 14px;
+    }
+
+    .blog-title {
+        margin: 15px 0;
+    }
+
+    .blog-description {
+        font-size: 16px
+    }
+}
+
+.faq-section__description {
+    margin-bottom: 24px;
+
+}
+
+@media (max-width: 773px) {
+
+    .header-nav__btn-cart,
+    .header-nav__btn-subscribe {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+    .header-nav {
+        flex-wrap: wrap;
+        padding: 1em 1em;
+        gap: 0.75em;
+    }
+
+    .header-nav__list {
+        gap: 1em;
+    }
+
+    .header-nav__button {
+        font-size: 0.9rem;
+        padding: 0.4em 0.8em;
+    }
+
+    .feature-tag {
+        padding: 16px 35px;
+        font-size: 16px;
+    }
+
+    .hero-grid {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1em;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        padding: 1em;
+    }
+
+    .hero-title {
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
+    }
+
+    .hero-buttons {
+        justify-content: start;
+        gap: 0.75em;
+    }
+
+    .hero-image {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .hero-label {
+        max-width: 100px;
+    }
+
+    .smooth-skin__collection,
+    .tanning__collection {
+        margin: 60px 20px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+    }
+
+    .product-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .product-card {
+        flex: 1 1 20%;
+        max-width: 45%;
+        padding: 12px;
+    }
+
+    .product-highlight {
+        max-width: 300px;
+        padding: 12px;
+    }
+
+    .faq-section {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        padding: 5% 10%;
+        gap: 24px;
+    }
+
+    .blog-posts {
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .blog-title {
+        margin-bottom: 15px;
+        font-size: 34px;
+    }
+
+    .blog-link {
+        padding: 13px 26px;
+        font-size: 14px;
+    }
+
+    .blog-description {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    .smooth-skin__label,
+    .healthy-tanning__label {
+        margin-top: 40px;
+        font-size: 14px;
+    }
+
+    .healthy-tanning__title,
+    .smooth-skin__title {
+        font-size: 36px;
+    }
+
+    .footer-wrap,
+    .footer-links {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .footer-wrap {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .site-footer {
+        padding: 40px 20px;
+    }
+
+    .form-email {
+        width: 280px;
+    }
+
+    .form-button__subscribe {
+        padding: 12px 28px;
+        font-size: 14px;
+    }
+
+    .circle-img {
+        width: 225px;
+        height: 225px;
+    }
+
+    .product-highlight__title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:691px) {
+    .header-nav__button {
+        font-size: 13px;
+    }
+
+    .hero-label {
+        max-width: 77px;
+    }
+
+    .feature-tag {
+        padding: 16px 35px;
+        border-radius: 64px;
+        font-size: 16px;
+    }
+
+    .smooth-skin__description,
+    .healthy-tanning__description {
+        font-size: 16px;
+    }
+
+    .header-close svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .product-details {
+        padding: 16px 30px;
+    }
+
+    .product-info__clean {
+        font-size: 18px;
+    }
+
+    .product-info__cost {
+        font-size: 14px;
+    }
+
+    .header-nav__btn-cart,
+    .header-nav__btn-subscribe {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .blog-title {
+        font-size: 34px;
+    }
+
+    .blog-link {
+        padding: 14px 26px;
+        font-size: 12px;
+    }
+
+    .blog-description {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .about-text {
+        font-size: 16px;
+        max-width: 570px;
+    }
+
+    .product-title,
+    .about-title,
+    .how-it-works__title,
+    .testimonial-title,
+    .faq-section__title,
+    .blog-title {
+        font-size: 30px;
+    }
+
+    .blog-posts {
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .blog-posts {
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+}
+
+@media (max-width:622px) {
+
+    .header-nav__button {
+        font-size: 11px;
+    }
+
+    .header-nav__btn-cart,
+    .header-nav__btn-subscribe {
+        padding: 6px 14px;
+        font-size: 10px;
+    }
+
+    .hero-image {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .about-text {
+        font-size: 16px;
+        max-width: 534px;
+    }
+
+    .feature-tag {
+        padding: 14px 33px;
+        border-radius: 64px;
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 10px 22px;
+    }
+
+    .hero-title {
+        font-family: "Roboto", sans-serif;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .hero-description {
+        font-size: 14px;
+    }
+
+    .hero-text {
+        font-size: 14px;
+    }
+
+    .product-details {
+        padding: 8px 22px;
+    }
+
+    .product-info__clean {
+        font-size: 16px;
+    }
+
+    .product-info__cost {
+        font-size: 12px;
+    }
+
+    .product-description {
+        font-size: 12px;
+    }
+
+    .product-highlight {
+        max-width: 80%;
+    }
+
+    .product-highlight__title {
+        font-size: 20px;
+    }
+
+    .product-highlight__description {
+        font-size: 12px;
+    }
+
+    .product-highlight__button {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .step-icon svg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .smooth-skin__label,
+    .healthy-tanning__label {
+        margin-top: 0px;
+    }
+
+    .step__title {
+        font-size: 18px;
+    }
+
+    .step__description {
+        font-size: 12px;
+    }
+
+    .skin__title {
+        font-size: 28px;
+    }
+
+    .smooth-skin__shop,
+    .healthy-tanning__shop {
+        font-size: 12px;
+    }
+
+    .blog-tag {
+        font-size: 10px;
+    }
+
+    .product-title,
+    .about-title,
+    .how-it-works__title,
+    .testimonial-title,
+    .faq-section__title,
+    .blog-title {
+        margin-top: 10px;
+        font-size: 23px;
+    }
+
+    .smooth-skin__description,
+    .healthy-tanning__description {
+        font-size: 12px;
+    }
+
+    .smooth-skin__buttons,
+    .healthy-tanning__buttons {
+        gap: 8px;
+    }
+
+    .smooth-skin__label,
+    .healthy-tanning__label {
+        font-size: 11px;
+    }
+
+    .faq-section__description {
+        font-size: 14px;
+        margin-top: 14px;
+        margin-bottom: 23px;
+    }
+
+    .blog-label,
+    .section-label {
+        font-size: 11px;
+    }
+
+    .btn-third svg {
+        width: 6px;
+        height: 10px;
+    }
+
+    .about-label,
+    .product-label,
+    .faq-question {
+        font-size: 14px;
+    }
+
+    .faq-question {
+        padding: 18px;
+    }
+
+    .faq-icon {
+        font-size: 28px
+    }
+
+    .blog-link {
+        padding: 11px 13px;
+        font-size: 11px;
+    }
+
+    .blog-description {
+        font-size: 14px;
+    }
+
+    .healthy-tanning__title,
+    .smooth-skin__title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width:557px) {
+    .header-top {
+        font-size: 12px;
+    }
+
+    .header-close svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    .header-nav__list {
+        gap: 6px;
+    }
+
+    .hero-label {
+        max-width: 62px;
+    }
+
+    .header-nav__btn-cart,
+    .header-nav__btn-subscribe {
+        padding: 4px 12px;
+        font-size: 8px;
+    }
+
+        .hero-image {
+        max-width: 220px;
+        width: 100%;
+    }
+
+    .btn {
+        padding: 8px 14px;
+    }
+
+        .about-text,.how-it-works__description {
+        font-size: 13px;
+        max-width: 440px;
+    }
+
+    .btn {
+        padding: 10px 14px;
+        font-size: 12px;
+    }
+
+        .product-card {
+        flex: 1 1 35%;
+    }
+
+    .header-nav__cart-icon svg {
+        height: 14px;
+        width: 16px;
+    }
+
+    .blog-posts {
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .product-card {
+        flex: 1 1 32%;
+        max-width: 45%;
+        padding: 12px;
+    }
+
+    .product-title,
+    .about-title,
+    .how-it-works__title,
+    .testimonial-title,
+    .faq-section__title,
+    .blog-title {
+        margin-top: 15px;
+        font-size: 21px;
+        margin-bottom: 6px;
+    }
+
+    .faq-section__description {
+        margin-bottom: 23px;
+    }
+
+    .faq-question {
+        padding: 15px;
+        margin-bottom: 3px;
+        font-size: 13px;
+    }
+
+    .faq-icon {
+        font-size: 26px;
+    }
+
+    .blog-link {
+        padding: 4px 18px;
+        font-size: 12px;
+    }
+
+    .blog-label {
+        font-size: 14px;
+    }
+
+    .form-email {
+        padding: 12px 33px
+    }
+
+    .form-button__subscribe {
+        padding: 10px 26px;
+        font-size: 14px;
+    }
+
+    .product-highlight {
+        max-width: 380px;
+    }
+
+    .btn {
+        padding: 6px 12px;
+        font-size: 9px;
+    }
+
+    .hero-title {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .hero-description {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .hero-text {
+        font-size: 12px;
+    }
+
+    .feature-tag {
+        padding: 11px 26px;
+        font-size: 13px;
+    }
+
+    .about-text {
+        font-size: 15px;
+        max-width: 488px;
+    }
+
+    .product-title,
+    .about-title,
+    .how-it-works__title,
+    .testimonial-title,
+    .faq-section__title,
+    .blog-title {
+        font-size: 21px;
+    }
+
+    .hero-labels {
+        gap: 8px;
+    }
+
+    .hero-text {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .about-buttons {
+        margin-bottom: 80px;
+    }
+
+    .about-label {
+        margin-top: 80px;
+    }
+
+    .healthy-tanning__title,
+    .smooth-skin__title {
+        font-size: 27px;
+    }
+
+    .faq-section__description {
+        font-size: 14px;
+    }
+
+    .blog-label {
+        font-size: 10px;
+    }
+
+    .blog-description {
+        font-size: 12px;
+    }
+
+    .product-title,
+    .about-title,
+    .how-it-works__title,
+    .testimonial-title,
+    .faq-section__title,
+    .blog-title {
+        margin-top: 10px;
+        font-size: 19px;
+    }
+
+    .smooth-skin__shop,
+    .healthy-tanning__shop {
+        font-size: 9px;
+    }
+}
+
+@media(max-width: 494px) {
+
+    .header-nav__list {
+        gap: 2px;
+    }
+
+    .header-nav__button {
+        font-size: 9px;
+    }
+
+    .header-nav__cart-icon svg {
+        width: 10px;
+        height: 12px;
+    }
+
+    .header-nav__btn-collections svg {
+        width: 10px;
+        height: 6px;
+    }
+
+    .hero-title {
+        font-size: 18px;
+    }
+
+    .hero-description {
+        font-size: 10px;
+    }
+
+    .btn {
+        padding: 7px 6px;
+        font-size: 10px;
+    }
+
+        .btn-third svg {
+        width: 6px;
+        height: 6px;
+    }
+    
+
+    .feature-tag {
+        padding: 8px 22px;
+        font-size: 11px;
+    }
+
+    .hero-label {
+        max-width: 49px;
+    }
+
+    .products-section {
+        padding: 60px 20px;
+    }
+
+    .product-label {
+        font-size: 12px;
+    }
+
+    .how-it-works__label {
+        font-size: 14px;
+    }
+
+    .how-it-works__description {
+        max-width: 420px;
+    }
+
+    .step-icon svg {
+        width: 70px;
+        height: 70px;
+    }
+
+    .step__title {
+        font-size: 16px;
+    }
+
+    .step__description {
+        font-size: 11px;
+    }
+
+    .circle-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .header-close svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .header-top {
+        font-size: 10px;
+    }
+
+    .btn-third svg {
+        width: 6px;
+        height: 8px;
+    }
+
+    .healthy-tanning__title,
+    .smooth-skin__title {
+        font-size: 22px;
+    }
+
+    .smooth-skin__description,
+    .healthy-tanning__description {
+        font-size: 11px;
+    }
+
+    .smooth-skin__label,
+    .healthy-tanning__label {
+        font-size: 10px;
+    }
+
+    .smooth-skin__shop,
+    .healthy-tanning__shop {
+        font-size: 10px;
+    }
+
+    .blog-description {
+        font-size: 10px;
+    }
+
+    .blog-link {
+        padding: 4px 13px;
+        font-size: 10px;
+    }
+
+    .btn {
+        padding: 4px 6px;
+        font-size: 7px;
+    }
+
+    .hero-title {
+        margin-bottom: 9px;
+        font-size: 15px;
+    }
+
+    .hero-description {
+        margin-bottom: 9px;
+        font-size: 8px;
+    }
+
+    .hero-buttons{
+            margin-bottom: 15px;
+    }
+
+    .hero-image {
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .hero-text {
+        font-size: 8px;
+    }
+
+    .about-label {
+        font-size: 12px;
+    }
+
+    .about-text {
+        font-size: 14px;
+        max-width: 400px;
+    }
+
+    .step__description {
+        font-size: 10px;
+    }
+
+    .form-email {
+        width: 235px;
+    }
+
+    .site-link {
+        font-size: 11px;
+    }
+
+    .form-permissions,
+    .form-link {
+        font-size: 9px;
+    }
+
+    .form-button__subscribe {
+        padding: 10px 20px;
+    }
+
+    .header-nav__actions {
+        gap: 8px;
+    }
+
+    .smooth-skin__shop,
+    .healthy-tanning__shop {
+        font-size: 7px;
+    }
+
+    .steps {
+        margin-bottom: 80px;
+    }
+
+    .blog-posts {
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+        padding: 20px 10px;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 413px) {
+
+    .header-nav {
+        padding: 10px;
+    }
+
+    .btn {
+        font-size: 5px;
+    }
+
+    .feature-tag {
+        padding: 4px 13px;
+        font-size: 9px;
+    }
+
+    .header-top {
+        font-size: 8px;
+    }
+
+    .header-close svg {
+        width: 8px;
+        height: 8px;
+    }
+
+    .header-nav__btn-collections svg {
+        width: 8px;
+        height: 4px;
+    }
+
+    .hero-title {
+        font-size: 12px;
+                margin-bottom: 7px;
+    }
+
+    .hero-buttons{
+        margin-bottom: 7px;    
+    }
+
+    .btn {
+        font-size: 6px;
+        padding: 4px 6px;
+    }
+
+    .hero-description {
+        font-size: 6px;
+        margin-bottom: 12px;
+    }
+
+    .hero-image {
+        max-width: 162px;
+    }
+
+    .header-nav {
+        padding: 10px;
+        gap: 0px;
+    }
+
+    .header-nav__button {
+        font-size: 7px;
+    }
+
+    .feature-tag {
+        padding: 6px 15px;
+        font-size: 8px;
+    }
+
+    .btn-third svg {
+        width: 4px;
+        height: 6px;
+    }
+
+    .smooth-skin__label,
+    .healthy-tanning__label,
+    .section-label {
+        font-size: 5px;
+    }
+
+    .smooth-skin__shop,
+    .healthy-tanning__shop {
+        font-size: 5px;
+    }
+
+    .healthy-tanning__title,
+    .smooth-skin__title {
+        font-size: 18px;
+    }
+
+    .smooth-skin__description,
+    .healthy-tanning__description {
+        font-size: 8px;
+    }
+
+    .testimonial-description {
+        font-size: 13px;
+    }
+
+    .faq-question {
+        font-size: 9px;
+    }
+
+    .faq-icon {
+        font-size: 20px;
+    }
+
+    .blog-description {
+        font-size: 8px;
+    }
+
+    .product-title,
+    .about-title,
+    .how-it-works__title,
+    .testimonial-title,
+    .faq-section__title,
+    .blog-title {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .blog-link {
+        padding: 5px 6px;
+        font-size: 10px;
+    }
+
+    .blog-label {
+        font-size: 7px;
+    }
+
+    .blog-posts {
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+        padding: 20px 10px;
+        gap: 10px;
+    }
+
+    .circle-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .form-email {
+        width: 154px;
+    }
+
+    .site-link {
+        font-size: 9px;
+    }
+
+    .form-label {
+        font-size: 10px;
+    }
+
+    .form-button__subscribe {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .form-email {
+        padding: 8px 31px;
+    }
+
+    .product-card {
+        flex: 1 1 62%;
+        max-width: 80%;
+        padding: 12px;
+    }
+
+    .how-it-works__description {
+        max-width: 291px;
+    }
+
+    .step__description {
+        font-size: 8px;
+    }
+
+    .step__title {
+        margin: 12px 0;
+        font-size: 14px;
+    }
+
+    .step-icon svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .how-it-works__description {
+        max-width: 352px;
+    }
+
+    .smooth-skin__label,
+    .healthy-tanning__label,
+    .section-label {
+        font-size: 6px;
+    }
+
+    .healthy-tanning__title,
+    .smooth-skin__title {
+        font-size: 18px;
+    }
+
+    .smooth-skin__description,
+    .healthy-tanning__description {
+        font-size: 9px;
+    }
+
+    .smooth-skin__shop,
+    .healthy-tanning__shop {
+        font-size: 6px;
+    }
+
+    .btn-third svg {
+        width: 4px;
+        height: 6px;
+    }
+
+    .testimonial-description {
+        font-size: 12px;
+    }
+
+    .section-label {
+        padding: 2px 10px;
+            margin-bottom: 4px;
+    }
+
+    .faq-section__description {
+        font-size: 9px;
+        margin: 12px 0;
+    }
+
+    .blog-label {
+        font-size: 6px;
+    }
+
+    .blog-posts {
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .faq-question {
+        padding: 8px;
+        font-size: 8px;
+    }
+
+    .faq-icon {
+        font-size: 18px;
+    }
+
+    .blog-link {
+        font-size: 8px;
+    }
+
+    .blog-description {
+        font-size: 7px;
+    }
+
+    .blog-posts {
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .product-card {
+        flex: 1 1 60%;
+        max-width: 81%;
+        padding: 12px;
+    }
+
+    .how-it-works__description {
+        max-width: 277px;
+    }
+
+    .step-icon svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .step__title {
+        font-size: 12px;
+    }
+
+    .about-text {
+        font-size: 12px;
+        max-width: 296px;
+    }
+
+    .about-label {
+        font-size: 7px;
+    }
+
+    .product-label {
+        font-size: 7px;
+    }
+
+}
